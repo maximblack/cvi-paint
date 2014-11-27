@@ -1,0 +1,1 @@
+-force-include-file "client.c";"c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\client.c" -force-include-file "proiect_paint.c";"c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\proiect_paint.c" -force-include-file "proiect_paint.h";"c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\proiect_paint.h" 

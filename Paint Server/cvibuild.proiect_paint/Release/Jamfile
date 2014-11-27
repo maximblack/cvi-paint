@@ -1,0 +1,43 @@
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2013\\sdk\\include"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "proiect_paint.h" = "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server" ;
+LOCATE on "server.c" = "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server" ;
+LOCATE on "server.h" = "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server" ;
+Object "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj" : "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\server.c" ;
+FILENUM on "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj" = 1 ;
+DEFPROTS on "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj" = "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj" = "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj.out" ;
+PrjObjects += "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\server.obj" ;
+Object "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\resources.res" : "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\resources.in.rc" ;
+MainFromObjects "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\proiect_paint.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\proiect_paint.exe" : "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\link_options.txt" ;
+Depends "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\proiect_paint.exe" : "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\resources.res" ;
+Depends all : "c:\\Users\\Maxim\\Desktop\\proiecte\\Proiect Practica\\Paint Server\\cvibuild.proiect_paint\\Release\\proiect_paint.exe" ;

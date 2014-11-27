@@ -1,0 +1,72 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[TimerStart]
+Class="Function"
+Prototype="int TimerStart();"
+
+[TimerStop]
+Class="Function"
+Prototype="int TimerStop();"
+
+[DrawLine]
+Class="Function"
+Prototype="int DrawLine(int x1, int y1, int x2, int y2, int color);"
+
+[GetPenPosition]
+Class="Function"
+Prototype="int GetPenPosition();"
+
+[ClearCanvas]
+Class="Function"
+Prototype="int ClearCanvas();"
+
+[CanvasColor]
+Class="Function"
+Prototype="int CanvasColor(int constant);"
+
+[CallbackMain]
+Class="Function"
+Prototype="int CallbackMain(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackCanvas]
+Class="Function"
+Prototype="int CallbackCanvas(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackTimer]
+Class="Function"
+Prototype="int CallbackTimer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackCanvasClear]
+Class="Function"
+Prototype="int CallbackCanvasClear(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorPurple]
+Class="Function"
+Prototype="int CallbackColorPurple(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorGreen]
+Class="Function"
+Prototype="int CallbackColorGreen(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorBlack]
+Class="Function"
+Prototype="int CallbackColorBlack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorRed]
+Class="Function"
+Prototype="int CallbackColorRed(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorYellow]
+Class="Function"
+Prototype="int CallbackColorYellow(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorBlue]
+Class="Function"
+Prototype="int CallbackColorBlue(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CallbackColorOrange]
+Class="Function"
+Prototype="int CallbackColorOrange(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

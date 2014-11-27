@@ -1,0 +1,36 @@
+-nologo
+-out:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\proiect_paint.exe
+-arch:x86
+-timestamp
+-res:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\resources.res
+-entry:_CVIWinMainStartupCode@0
+-base:0x400000
+-linked:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\linkersummary.txt
+-dlldeps:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\dlldependencies.txt
+-licensing:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\linkerlicensing.txt
+-browsedeps:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\client.obj
+-in:c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Client\cvibuild.proiect_paint\Release\proiect_paint.obj
+-more:c:\program files (x86)\national instruments\cvi2013\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2013\bin\msvc\cvi.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\advapi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cviddc.lib
+-more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\cvidemoa.bli
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\cvitdms.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\gpib.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\bin\msvc\omp.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2013\toolslib\toolbox\msvc\toolbox.obj
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\user32.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:c:\program files (x86)\national instruments\cvi2013\sdk\lib\msvc\winmm.lib

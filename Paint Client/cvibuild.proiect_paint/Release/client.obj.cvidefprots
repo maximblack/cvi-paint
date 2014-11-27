@@ -1,0 +1,16 @@
+[ClientConnect]
+Class="Function"
+Prototype="int ClientConnect(char adress[256], int port);"
+
+[ClientWrite]
+Class="Function"
+Prototype="int ClientWrite(char buffer[500]);"
+
+[ClientRead]
+Class="Function"
+Prototype="int ClientRead();"
+
+[CallbackClient]
+Class="Function"
+Prototype="int CallbackClient(unsigned int handle, int event, int error, void *callbackData);"
+

@@ -1,0 +1,8 @@
+client.obj
+proiect_paint.obj
+cvistart.lib
+cvi.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Resource Module

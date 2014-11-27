@@ -1,0 +1,1 @@
+-force-include-file "proiect_paint.h";"c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Server\proiect_paint.h" -force-include-file "server.c";"c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Server\server.c" -force-include-file "server.h";"c:\Users\Maxim\Desktop\proiecte\Proiect Practica\Paint Server\server.h" 

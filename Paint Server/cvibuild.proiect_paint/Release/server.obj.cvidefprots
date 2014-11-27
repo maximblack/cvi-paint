@@ -1,0 +1,40 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Log]
+Class="Function"
+Prototype="int Log(char buffer[256]);"
+
+[ServerStart]
+Class="Function"
+Prototype="int ServerStart();"
+
+[ServerStop]
+Class="Function"
+Prototype="int ServerStop();"
+
+[ClientSend]
+Class="Function"
+Prototype="int ClientSend(unsigned int clientHandle, char buffer[512]);"
+
+[ClientRead]
+Class="Function"
+Prototype="int ClientRead(struct Client *client);"
+
+[ParseClientString]
+Class="Function"
+Prototype="int ParseClientString(struct Client *client);"
+
+[ClientSendToAll]
+Class="Function"
+Prototype="int ClientSendToAll(char buffer[512], unsigned int clientHandle);"
+
+[ClientReturn]
+Class="Function"
+Prototype="struct Client *ClientReturn(unsigned int clientHandle);"
+
+[CallbackServer]
+Class="Function"
+Prototype="int CallbackServer(unsigned int handle, int event, int error, void *callbackData);"
+
